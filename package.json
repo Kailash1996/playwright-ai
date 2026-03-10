@@ -11,7 +11,9 @@
     "Playwright-E2E",
     "Playwright-MCP"
   ],
-  "scripts": {},
+  "scripts": {
+    "Demo": "npx playwright test tests/demo/mytest.spec.ts --headed"
+  },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.4.0"
