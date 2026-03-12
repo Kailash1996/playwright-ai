@@ -12,7 +12,8 @@
     "Playwright-MCP"
   ],
   "scripts": {
-    "Demo": "npx playwright test tests/demo/mytest.spec.ts --headed"
+    "Demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
+    "login": "npx playwright test tests/funtional/login.spec.ts --headed"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
