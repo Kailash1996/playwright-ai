@@ -13,7 +13,9 @@
   ],
   "scripts": {
     "Demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
-    "login": "npx playwright test tests/funtional/login.spec.ts --headed"
+    "login": "npx playwright test tests/funtional/login.spec.ts --headed",
+    "makeappointment": "npx playwright test tests/funtional/make.apmnt.spec.ts --headed",
+    "eleHandled": "npx playwright test tests/demo/ele.handle.spec.ts --headed"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
