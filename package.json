@@ -18,7 +18,29 @@
     "eleHandled": "npx playwright test tests/demo/ele.handle.spec.ts --headed"
   },
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "@types/node": "^25.4.0"
-  }
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.7.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "allure-js-commons": "^3.7.1",
+    "charenc": "^0.0.2",
+    "crypt": "^0.0.2",
+    "is-buffer": "^1.1.6",
+    "md5": "^2.3.0",
+    "playwright": "^1.59.1",
+    "playwright-core": "^1.59.1",
+    "undici-types": "^7.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kailash1996/playwright-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kailash1996/playwright-ai/issues"
+  },
+  "homepage": "https://github.com/Kailash1996/playwright-ai#readme"
 }
