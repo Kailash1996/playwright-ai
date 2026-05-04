@@ -12,15 +12,19 @@
     "Playwright-MCP"
   ],
   "scripts": {
+    "PW-ADV-CAP": "npx Playwright test tests/demo/pw.adv.caplogin.spec.ts --headed",
     "Demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
     "login": "npx playwright test tests/funtional/login.spec.ts --headed",
     "makeappointment": "npx playwright test tests/funtional/make.apmnt.spec.ts --headed",
-    "eleHandled": "npx playwright test tests/demo/ele.handle.spec.ts --headed"
+    "eleHandled": "npx playwright test tests/demo/ele.handle.spec.ts --headed",
+    "pw-basic-make": "npx playwright test tests/demo/pw.basic.cap.make.apmnt.spec.ts --headed",
+    "demo:parallel" : "npx playwright test --grep @smoke --headed"
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.0",
-    "allure-playwright": "^3.7.1"
+    "allure-playwright": "^3.7.1",
+    "dotenv": "^17.4.2"
   },
   "directories": {
     "test": "tests"
